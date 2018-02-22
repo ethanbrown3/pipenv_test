@@ -1,0 +1,22 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[dev-packages]
+
+"flake8" = "*"
+"boto3" = "*"
+
+
+[packages]
+
+requests = "*"
+numpy = "*"
+
+
+[requires]
+
+python_version = "2.7"
